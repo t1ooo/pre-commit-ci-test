@@ -1,0 +1,17 @@
+[project]
+name = "pre-commit-ci-test"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "t1ooo", email = "5966878+t1ooo@users.noreply.github.com"},
+]
+dependencies = [
+    "pre-commit>=3.6.0",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+package-type = "application"
